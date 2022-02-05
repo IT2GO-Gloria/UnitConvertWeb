@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+        <title>Project I - Converter Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+            <br>
+            <a href="C:\Users\MomLi\OneDrive\Documents\Spark Code\Project I\FahrenheitToCelsius.html">Farenheit to Celcius</a><br> 
+            <a href="C:\Users\MomLi\OneDrive\Documents\Spark Code\Project I\LiterToGallon.html">Liters To Gallons</a><br>
+            <a href="C:\Users\MomLi\OneDrive\Documents\Spark Code\Project I\MilesToKilometers.html">Miles To Kilometers</a><br>
+            <a href="file:///C:/Users/MomLi/OneDrive/Documents/Spark%20Code/Project%20I/index.html">Home</a><br>
+          </section>
+
+            <fieldset id="formula">
+                <p>in to cm: in X 2.54 = cm</p>
+                <p>cm to in: cm X 0.39370078740157 = in</p>
+                <legend>Conversion Formulas</legend>
+            </fieldset>
+            <br>
+        <h1>Inches (in) to Centimeters (cm) Conversion</h1>
+        <h6>Information was obtained from Wikipedia and images were obtained from unsplash.</h6>
+        
+        <script>
+
+            let input = prompt("Enter Inches");
+    
+            function convertInches(input) {
+                let I = (input * 2.54)
+                window.alert(input +" inches is the same as " + I + " centimeters")
+            }
+
+            convertInches(input)
+
+        </script>
+        
+        <img id="left" src="https://images.unsplash.com/photo-1530530488105-64664c7213bf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5jaGVzJTIwcnVsZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="ruler in inches">
+        <img id="right" src="https://images.unsplash.com/photo-1586170737392-383ba61aca98?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNlbnRpbWV0ZXIlMjBydWxlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="centimeter ruler">
+        
+        <fieldset id="left">
+            <p>The inch (symbol: in or ″) is a unit of length in the British imperial and the United States customary systems of measurement. It is equal to 1/36 yard or 1/12 of a foot. Derived from the Roman uncia ("twelfth"), the word inch is also sometimes used to translate similar units in other measurement systems, usually understood as deriving from the width of the human thumb.</p>
+        <legend>Inches in</legend></fieldset>
+        
+        <fieldset id="right"><p>A centimetre (international spelling) or centimeter (American spelling) (SI symbol cm) is a unit of length in the metric system, equal to one hundredth of a metre, centi being the SI prefix for a factor of 1/100. The centimetre was the base unit of length in the now deprecated centimetre–gram–second (CGS) system of units.</p>
+        <legend>Centimeter cm</legend></fieldset>
+
+            </body>
+        </html>

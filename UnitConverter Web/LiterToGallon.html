@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Liter To Gallon Conversion</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <section>
+                <br>
+                <a href="C:\Users\MomLi\OneDrive\Documents\Spark Code\Project I\FahrenheitToCelsius.html">Farenheit to Celcius</a><br> 
+                <a href="C:\Users\MomLi\OneDrive\Documents\Spark Code\Project I\InchesToCentimeters.html">Inches To Centimeters</a><br>
+                <a href="C:\Users\MomLi\OneDrive\Documents\Spark Code\Project I\MilesToKilometers.html">Miles To Kilometers</a><br>
+                <a href="file:///C:/Users/MomLi/OneDrive/Documents/Spark%20Code/Project%20I/index.html">Home</a><br>
+            </section>
+
+            <fieldset id="formula">
+                <p>ℓ to gal: ℓ X 0.264172 = gal </p>
+                <p>gal to ℓ: gal X 3.785411784 = ℓ</p>
+            <legend>Conversion Formulas</legend>
+            </fieldset><br>
+
+        <h1>Liters (ℓ) to Gallons (gal) Conversion</h1>
+        <h6>Information was obtained from Wikipedia and images were obtained from unsplash.</h6>
+        
+        <script>
+            let input = prompt("Enter Liters");
+    
+            function convertLiters(input) {
+                let L = (input * 0.264172)
+                window.alert(input +" liters is the same as " + L + " gallons")
+            }
+
+            convertLiters(input)
+
+        </script>
+        
+        <img id="left" src="https://images.unsplash.com/photo-1598185770444-daa2cf8177e3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bGl0ZXJzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="photo of liters">
+        <img id="right" src="https://images.unsplash.com/photo-1557940949-f094873cf5bc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FsbG9uc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="photo of gallons">
+        
+        <fieldset id="left">
+            <p>The litre (British English spelling) or liter (American English spelling) (SI symbols L and l, other symbol used: ℓ) is a metric unit of volume. It is equal to 1 cubic decimetre (dm3), 1000 cubic centimetres (cm3) or 0.001 cubic metre (m3). A cubic decimetre (or litre) occupies a volume of 10 cm × 10 cm × 10 cm and is thus equal to one-thousandth of a cubic metre.</p>
+        <legend>Liter ℓ</legend></fieldset>
+        
+        <fieldset id="right"><p>The gallon is a unit of measurement for volume and fluid capacity in both the US customary units and the British imperial systems of measurement. Three significantly different sizes are in current use: the imperial gallon (imp gal), defined as 4.54609 litres, which is or was once used in the United Kingdom, Canada, and some Caribbean nations; the US gallon (US gal) defined as 231 cubic inches (exactly 3.785411784 litres), which is used in the US and some Latin American and Caribbean countries; and the US dry gallon ("usdrygal"), defined as 1⁄8 US bushel (exactly 4.40488377086 litres).</p>
+        <legend>Gallon gal</legend></fieldset>
+        
+            </body>
+        </html>
