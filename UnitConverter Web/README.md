@@ -7,4 +7,4 @@
 * CSS
 * JavaScript
 
-### **Coded By: Gloria Johnston, Web Developer & Software Engineer **
+### ** Coded By: Gloria Johnston, Web Developer & Software Engineer **
