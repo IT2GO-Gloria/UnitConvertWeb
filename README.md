@@ -1,6 +1,7 @@
 # Unit Converter Web App
 
 ### Technologies Used: HTML, CSS, Web Browser
+### NOTE: To use, you will have to change the URL's on each page. It is set to run locally on my computer.
 
 ### This app has the Metric System and the US Customary System for:
 * Fahrenheit to Celsius
@@ -17,6 +18,9 @@
 * A user can keep going between the conversion pages and do other conversions or quit.
 
 ### Future Phases should:
+* Change this from an HTML, CSS app to an Angular app.
+* In Angular, add a header with the navigation to be the same on all pages.
+* In Angular, disable the navigation for the page user is currently on.
 * Add more conversions,
 * Allow conversions to go both ways,
 * Add sections like: money conversions, baking conversions, etc.
